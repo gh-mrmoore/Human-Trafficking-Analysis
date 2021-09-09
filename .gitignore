@@ -1,3 +1,11 @@
+# Additions from Matthew Moore
+ # a folder to keep random thoughts and code snippets
+_scratch/
+
+# Exclude R that might change when re-run
+.RData
+.Rhistory
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
