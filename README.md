@@ -9,12 +9,12 @@ Our initial thoughts on the matter where how awful this situations is, across th
 
 ## Source of data
 Our analysis is based on a csv file, consisting of 63 columns and nearly 50,000 rows of data.
-In columns we have year, gender, age, majority status(when trafficked started for them),  tactics to scare, threat or maintain the power relasionship between the victims and their "recruiter".
+In columns we have year, gender, age, majority status(when trafficked started for them),  tactics to scare, threat or maintain the power relationship between the victims and their "recruiter".
 Type of labor is another interesting column, wich will take our attention later in the machine learning model.
-Finally the recruiter relation to the victims is shown 
+Finally the recruiter relation to the victims is shown. 
 
 ## Questions?
-Is age, gender or immigration status related to the type of labor people will be forced into?
+Is age, gender or immigration status, related to the type of labor people will be forced into?
 
 
 
