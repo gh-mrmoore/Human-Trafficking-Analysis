@@ -1,0 +1,4 @@
+Merging branches
+1. Go to own branch
+2 git rebase MchelleVillafria(branch name)
+3. check the files of interest
