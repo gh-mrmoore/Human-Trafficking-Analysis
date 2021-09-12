@@ -1,3 +1,14 @@
+# Additions from Matthew Moore
+ # a folder to keep random thoughts and code snippets
+_scratch/
+
+# Exclude R that might change when re-run
+.RData
+.Rhistory
+
+# Folder for large files that won't push to GitHub
+Large_Files/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
