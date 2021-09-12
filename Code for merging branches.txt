@@ -1,4 +1,4 @@
 Merging branches
-1. Go to own branch
-2 git rebase MchelleVillafria(branch name)
-3. check the files of interest
+1. Go to own branch <git checkout branch1>
+2  Reference the source branch <git rebase branch2>
+3. Check the files of interest
