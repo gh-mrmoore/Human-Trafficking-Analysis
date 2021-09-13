@@ -1,5 +1,23 @@
 # Analytics Final Project
 
+## Human Trafficking
+
+## Purpose
+Search for trends in human trafficking, through data, in order to predict possible outcomes, based on gender, age, immigration status, among others, and how these relate to the activity the victims are forced into.
+
+## Choosing
+Our initial thoughts on the matter where how awful this situations is, across the country as well as around the world. So, as a way to evoke consciousness maybe, or as a personal exercise of empathy, we decided to work with this dataset, trying to discover what story could it be telling us. 
+
+## Source of data
+Our analysis is based on a csv file, consisting of 63 columns and nearly 50,000 rows of data.
+In columns we have year, gender, age, majority status(when trafficked started for them),  tactics to scare, threat or maintain the power relationship between the victims and their "recruiter".
+Type of labor is another interesting column, wich will take our attention later in the machine learning model.
+Finally the recruiter relation to the victims is shown. 
+
+## Questions?
+Is age, gender or immigration status, related to the type of labor people will be forced into?
+
+
 ## Communication Protocols
 ### Needs
 As each team member will contribute to different parts of the project over time, communication throughout each segmenet of the project is essential. Communication will be maintained regularly meetings will be planned according to team members' schedules.
@@ -26,21 +44,9 @@ As provided by the class instructor and teaching assistants, a calendar and othe
 
 ### Cadence
 The group shall meet at least twice weekly (Monday and Wednesday during regularly scheduled class time) and as often as possible or necessary outside of the regular, twice-weekly, meetings.
-=======
-# Final Analysis Project
-## Human trafficking in North America
 
-## Purpose
-Search for trends in human trafficking, through data, in order to predict possible outcomes, based on gender, age, immigration status, among others, and how these relate to the activity the victims are forced into.
-
-## Choosing
-Our initial thoughts on the matter where how awful this situations is, across the country as well as around the world. So, as a way to evoke consciousness maybe, or as a personal exercise of empathy, we decided to work with this dataset, trying to discover what story could it be telling us. 
-
-## Source of data
-Our analysis is based on a csv file, consisting of 63 columns and nearly 50,000 rows of data.
-In columns we have year, gender, age, majority status(when trafficked started for them),  tactics to scare, threat or maintain the power relationship between the victims and their "recruiter".
-Type of labor is another interesting column, wich will take our attention later in the machine learning model.
-Finally the recruiter relation to the victims is shown. 
-
-## Questions?
-Is age, gender or immigration status, related to the type of labor people will be forced into?
+## Team
+Santiago Quintero
+Michelle Escobar
+Michelle Villafria
+Matthew Moore
