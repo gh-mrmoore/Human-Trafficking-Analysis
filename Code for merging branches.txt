@@ -1,0 +1,4 @@
+Merging branches
+1. Go to own branch <git checkout branch1>
+2  Reference the source branch <git rebase branch2>
+3. Check the files of interest
