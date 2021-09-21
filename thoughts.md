@@ -8,7 +8,7 @@ We need the model to predict one of six different exploit categories derived fro
 
 ### If the victim's purpose is for forced labor, what areas of labor are they being forced into based on the criteria above?
 #### Model
-Similar to the above, there is a known outcome and a supervised or neural-network learning model may be able to predict the type of exploit.
+Similar to the above, there is a known outcome and an unsupervised or neural-network learning model may be able to predict the type of exploit.
 
 #### Output
 We need the model to predict the type of forced labor. In other words, the model needs to be able to categorize each input.
