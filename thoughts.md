@@ -2,6 +2,7 @@
 ### Does the victim's age, gender, relationship to trafficker, and citizenship predict the victim's purpose?
 #### Model
 Given an input set, we are trying to predict an outcome. In our base set, we have a known outcome (the victim's purpose, which is mostly known from the case data). Can we use a supervised machine learning model or a neural-network learning model to predict the type of exploit?
+*After consultation following poor outcomes from current modeling attempts, a better approach will be to *
 
 #### Output
 We need the model to predict one of six different exploit categories derived from our data and ETL process.
