@@ -1,6 +1,7 @@
 # Additions from Matthew Moore
  # a folder to keep random thoughts and code snippets
 _scratch/
+config.py
 
 # Exclude R that might change when re-run
 .RData
