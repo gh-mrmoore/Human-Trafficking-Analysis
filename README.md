@@ -84,6 +84,6 @@ As provided by the class instructor and teaching assistants, a calendar and othe
 The group shall meet at least twice weekly (Monday and Wednesday during regularly scheduled class time) and as often as possible or necessary outside of the regular, twice-weekly, meetings.
 
 ## Team
-Santiago Quintero
-Michelle Villafria
-Matthew Moore
+* Santiago Quintero
+* Michelle Villafria
+* Matthew Moore
