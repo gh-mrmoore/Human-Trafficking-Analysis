@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choropleth Tutorial - Leaflet</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" 
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" 
+    crossorigin="">
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+     integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" 
+     crossorigin=""></script>
+
+
+	<style>
+		html, body {
+			height: 100%;
+			margin: 0;
+		}
+		#map {
+			width: 1100px;
+			height: 800px;
+		}
+	</style>
+    <style>
+        #map { width: 2000px; height: 900px; }
+        .info {
+             padding: 6px 8px;
+             font: 14px/16px Arial, Helvetica, sans-serif;
+             background: white;
+             background: rgba(255,255,255,0.8);
+             box-shadow: 0 0 15px rgba(0,0,0,0.2);
+             border-radius: 5px;
+        }
+        .info h4 { 
+             margin: 0 0 5px;
+             color: #777; 
+        }
+        .legend { 
+             text-align: left;
+             line-height: 18px;
+             color: #555; 
+        } 
+        .legend i { 
+             width: 18px;
+             height: 18px;
+             float: left;
+             margin-right: 8px;
+             opacity: 0.7; 
+        }
+
+
+    </style>
+
+
+  <!-- Leaflet CSS & JS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+crossorigin=""/>
+
+  <!-- d3 JavaScript -->
+    <!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
+
+  <!-- Our CSS -->
+  <!-- <link rel="stylesheet" type="text/css" href="./css/style.css"> -->
+
+  </head>
+  <body>
+
+    <!-- map div -->
+    <div id="map"></div>
+
+    <!-- Accesing counties.js -->
+    <script type="text/javascript" src="cases_decimals.js"></script>
+    
+    <!-- JS  -->
+    
+    <!-- <script type="text/javascript" src="logic.js"></script> -->
+
+    <script type="text/javascript" src="script.js"></script>
+    <!-- <script type="text/javascript" src="counties.js"></script> -->
+    
+  </body>
+</html>
+
+
+<head>
+	
+	
+
+	
+</head>
