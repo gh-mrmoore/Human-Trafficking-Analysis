@@ -104,7 +104,7 @@ function createMap(cases, countries) {
     // Define a baseMaps object to hold our base layers
     var baseMaps = {
       "Street Map": streetmap,
-      "Dark Map": darkmap
+      // "Dark Map": darkmap
     };
   
     // var cases = new L.LayerGroup();
