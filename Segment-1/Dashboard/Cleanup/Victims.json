@@ -1,0 +1,164 @@
+[
+  {
+    "iso_a2": "AF",
+    "cases": 83,
+    "country": "Afghanistan",
+    "iso_a3": "AFG"
+  },
+  {
+    "iso_a2": "AL",
+    "cases": 22,
+    "country": "Albania",
+    "iso_a3": "ALB"
+  },
+  {
+    "iso_a2": "BD",
+    "cases": 26,
+    "country": "Bangladesh",
+    "iso_a3": "BGD"
+  },
+  {
+    "iso_a2": "BG",
+    "cases": 356,
+    "country": "Bulgaria",
+    "iso_a3": "BGR"
+  },
+  {
+    "iso_a2": "BY",
+    "cases": 400,
+    "country": "Belarus",
+    "iso_a3": "BLR"
+  },
+  {
+    "iso_a2": "CN",
+    "cases": 79,
+    "country": "China",
+    "iso_a3": "CHN"
+  },
+  {
+    "iso_a2": "GH",
+    "cases": 544,
+    "country": "Ghana",
+    "iso_a3": "GHA"
+  },
+  {
+    "iso_a2": "HT",
+    "cases": 339,
+    "country": "Haiti",
+    "iso_a3": "HTI"
+  },
+  {
+    "iso_a2": "ID",
+    "cases": 1777,
+    "country": "Indonesia",
+    "iso_a3": "IDN"
+  },
+  {
+    "iso_a2": "IN",
+    "cases": 46,
+    "country": "India",
+    "iso_a3": "IND"
+  },
+  {
+    "iso_a2": "KH",
+    "cases": 1000,
+    "country": "Cambodia",
+    "iso_a3": "KHM"
+  },
+  {
+    "iso_a2": "KZ",
+    "cases": 222,
+    "country": "Kazakhstan",
+    "iso_a3": "KAZ"
+  },
+  {
+    "iso_a2": "MD",
+    "cases": 4504,
+    "country": "Moldova",
+    "iso_a3": "MDA"
+  },
+  {
+    "iso_a2": "MG",
+    "cases": 94,
+    "country": "Madagascar",
+    "iso_a3": "MDG"
+  },
+  {
+    "iso_a2": "MY",
+    "cases": 930,
+    "country": "Malaysia",
+    "iso_a3": "MYS"
+  },
+  {
+    "iso_a2": "PH",
+    "cases": 1988,
+    "country": "Philippines",
+    "iso_a3": "PHL"
+  },
+  {
+    "iso_a2": "RO",
+    "cases": 259,
+    "country": "Romania",
+    "iso_a3": "ROU"
+  },
+  {
+    "iso_a2": "SA",
+    "cases": 278,
+    "country": "Saudi Arabia",
+    "iso_a3": "SAU"
+  },
+  {
+    "iso_a2": "SN",
+    "cases": 370,
+    "country": "Senegal",
+    "iso_a3": "SEN"
+  },
+  {
+    "iso_a2": "TH",
+    "cases": 391,
+    "country": "Thailand",
+    "iso_a3": "THA"
+  },
+  {
+    "iso_a2": "TJ",
+    "cases": 54,
+    "country": "Tajikistan",
+    "iso_a3": "TJK"
+  },
+  {
+    "iso_a2": "TM",
+    "cases": 26,
+    "country": "Turkmenistan",
+    "iso_a3": "TKM"
+  },
+  {
+    "iso_a2": "UA",
+    "cases": 5399,
+    "country": "Ukraine",
+    "iso_a3": "UKR"
+  },
+  {
+    "iso_a2": "UG",
+    "cases": 151,
+    "country": "Uganda",
+    "iso_a3": "UGA"
+  },
+  {
+    "iso_a2": "US",
+    "cases": 12512,
+    "country": "United States of America",
+    "iso_a3": "USA"
+  },
+  {
+    "iso_a2": "UZ",
+    "cases": 193,
+    "country": "Uzbekistan",
+    "iso_a3": "UZB"
+  },
+  {
+    "iso_a2": "VN",
+    "cases": 16,
+    "country": "Viet Nam",
+    "iso_a3": "VNM"
+  }
+]
