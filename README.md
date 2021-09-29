@@ -38,7 +38,7 @@ As we had a known outcome (our Polaris dataset related to known victims of human
 Data was split in to training and testing sets using the `train_test_split` module available in Sci-Kit Learn. Modifications to the sets are pending further EDA and review.
 
 ### Model Choice
-After initial trials with unsupervised and neural-network learning models, consultations led us to a supervised learning model. Using both multi-class logistic regression and linear regression, we hope to be able to predict outcomes to our questions as listed above.
+After initial trials with unsupervised and neural-network learning models, consultations led us to a supervised learning model. Using both multi-class logistic regression and linear regression, we hope to be able to predict outcomes to our questions as listed above. As yet, multiple regression (using various factors to try and forecast the number of cases in a given country for a given year) has proven less than reliable.
 
 ## Database Integration
 ### Data Storage
