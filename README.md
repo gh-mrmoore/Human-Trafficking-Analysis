@@ -49,6 +49,7 @@ Our database hosts migrated historical data from a variety of sources that is li
 
 ### Schema
 Our database includes at least 4 primary data tables.
+<img src="https://github.com/gh-mrmoore/AnalyticsFinalProject/blob/main/Segment-2/Database/ERD.png" alt="Basic ERD for PostgreSQL database." />
 
 ### Joins
 SQL was used to create a view within the database that provides a reference between 2-character and 3-character country ISO codes.
@@ -56,9 +57,20 @@ SQL was used to create a view within the database that provides a reference betw
 ### SQLAlchemy Connection String
 As we upload our cleaned data to the database and then draw that data down from the database for analysis in our models, multiple connections were made using SQLAlchemy. The connection strings have not been pushed to GitHub as they are they relate to a live database.
 
+## Dashboard
+### Storyboard
+Please see [our initial presentation](https://github.com/gh-mrmoore/AnalyticsFinalProject/blob/main/Segment-2/Group5_FinalProject.pptx) for a draft of our storyboard and topics we'll be covering.
+
 ## Communication Protocols
 ### Needs
 As each team member will contribute to different parts of the project over time, communication throughout each segmenet of the project is essential. Communication will be maintained regularly meetings will be planned according to team members' schedules.
+
+### Tools
+We plan to use a combination of Jupyter Notebooks, Python, plotly, MapBox, d3 and likely other libraries to, hopefully, host our project on Heroku.
+
+### Interactive Elements
+Best case scenario will be an interactive use of our models. We also plan to have interactive heat maps on various statistics and charts. Deployment particulars may affect this goal. A rough mock-up of our site is below:
+<img src="https://github.com/gh-mrmoore/AnalyticsFinalProject/blob/main/Segment-2/Dashboard/web_dashboard_rough_draft.png" alt="Web Dashboard Draft" />
 
 ### Purpose
 Efficient collaboration between teammates can either make or break a project. Communication, as part of collaboration is essential for success. Regular updates to stakeholders can help to remove blockages from a given workflow and can allow parallel development of different aspects of a given project without one necessarily waiting on another.
