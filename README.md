@@ -71,6 +71,7 @@ We plan to use a combination of Jupyter Notebooks, Python, plotly, MapBox, d3 an
 ### Interactive Elements
 Best case scenario will be an interactive use of our models. We also plan to have interactive heat maps on various statistics and charts. Deployment particulars may affect this goal. A rough mock-up of our site is below:
 <img src="https://github.com/gh-mrmoore/AnalyticsFinalProject/blob/main/Segment-2/Dashboard/web_dashboard_rough_draft.png" alt="Web Dashboard Draft" />
+*Initial layout taken from [w3schools.com](https://www.w3schools.com/bootstrap4/bootstrap_templates.asp)*
 
 ### Purpose
 Efficient collaboration between teammates can either make or break a project. Communication, as part of collaboration is essential for success. Regular updates to stakeholders can help to remove blockages from a given workflow and can allow parallel development of different aspects of a given project without one necessarily waiting on another.
