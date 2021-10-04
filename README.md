@@ -186,6 +186,9 @@ As we upload our cleaned data to the database and then draw that data down from 
 ### Storyboard
 Please see [our initial presentation](https://github.com/gh-mrmoore/AnalyticsFinalProject/blob/main/Segment-2/Group5_FinalProject.pptx) for a draft of our storyboard and topics we'll be covering.
 
+### Heroku Dashboard
+Development is continuing at [our Heroku site](https://ku-group5.herokuapp.com/). Please allow a moment for the site to load.
+
 ## Team
 * Santiago Quintero
 * Michelle Escobar
