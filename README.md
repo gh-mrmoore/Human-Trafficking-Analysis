@@ -61,42 +61,8 @@ As we upload our cleaned data to the database and then draw that data down from 
 ### Storyboard
 Please see [our initial presentation](https://github.com/gh-mrmoore/AnalyticsFinalProject/blob/main/Segment-2/Group5_FinalProject.pptx) for a draft of our storyboard and topics we'll be covering.
 
-## Communication Protocols
-### Needs
-As each team member will contribute to different parts of the project over time, communication throughout each segmenet of the project is essential. Communication will be maintained regularly meetings will be planned according to team members' schedules.
-
-### Tools
-We plan to use a combination of Jupyter Notebooks, Python, plotly, MapBox, d3 and likely other libraries to, hopefully, host our project on Heroku.
-
-### Interactive Elements
-Best case scenario will be an interactive use of our models. We also plan to have interactive heat maps on various statistics and charts. Deployment particulars may affect this goal. A rough mock-up of our site is below:
-<img src="https://github.com/gh-mrmoore/AnalyticsFinalProject/blob/main/Segment-2/Dashboard/web_dashboard_rough_draft.png" alt="Web Dashboard Draft" />
-*Initial layout taken from [w3schools.com](https://www.w3schools.com/bootstrap4/bootstrap_templates.asp)*
-
-### Purpose
-Efficient collaboration between teammates can either make or break a project. Communication, as part of collaboration is essential for success. Regular updates to stakeholders can help to remove blockages from a given workflow and can allow parallel development of different aspects of a given project without one necessarily waiting on another.
-
-### Methods
-#### GitHub Projects
-A basic Kanban project has been created in the Project GitHub repository. This will enable team members to track progress as items are completed.
-
-#### Slack
-Using Slack to message other team members and share resources will be essential. Sharing links and possibly files via Slack should improve the quality of work.
-
-#### Zoom
-Regular Zoom meetings (both during and outside of regular class time) will be held to accomplish the following:
-- Brainstorm
-- Troubleshoot
-- Plan for next steps
-- Debate and determine best models and/or datasets and/or technologies
-
-#### Canvas
-As provided by the class instructor and teaching assistants, a calendar and other resources are available in Canvas. Meetings will be posted on the calendar and other resources (Collaborations, Files, Discussions, etc) shall be utilized when or if appropriate.
-
-### Cadence
-The group shall meet at least twice weekly (Monday and Wednesday during regularly scheduled class time) and as often as possible or necessary outside of the regular, twice-weekly, meetings.
-
 ## Team
 * Santiago Quintero
+* Michelle Escobar
 * Michelle Villafria
 * Matthew Moore
