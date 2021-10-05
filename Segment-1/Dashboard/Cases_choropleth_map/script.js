@@ -1,7 +1,7 @@
 // var mapboxAccessToken = 'pk.eyJ1IjoiZnJhbmNpc2NvMTMtMzAiLCJhIjoiY2tyYmFzcG5lNHJqbzJ2dDl3Z3duZmJiYyJ9.iecr3feoK8Whj4eZPueG8w';
 var map = L.map('map',{
-  center:[0,0], 
-  zoom: 4,
+  center:[30,0], 
+  zoom: 2.3,
   // layers: [streetmap,darkmap]
 });
 var API_KEY = 'pk.eyJ1IjoiZnJhbmNpc2NvMTMtMzAiLCJhIjoiY2tyYmFzcG5lNHJqbzJ2dDl3Z3duZmJiYyJ9.iecr3feoK8Whj4eZPueG8w';
@@ -25,7 +25,7 @@ var baseMaps = {
       "Dark Map": darkmap
     };    
 
-
+// streetmap.addTo(map);
 // var geojson = L.geoJson(casesData).addTo(map);
 
 
@@ -87,12 +87,13 @@ function onEachFeature(feature, layer) {
   });
 }
 
-var geojson = L.geoJson(casesData, {
+var geojson = L.geoJson(cleanedData, {
   style: style,
   onEachFeature: onEachFeature
 }).addTo(map);
 
 var info = L.control();
+
 
 info.onAdd = function (map) {
   this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
@@ -102,7 +103,7 @@ info.onAdd = function (map) {
 
 // method that we will use to update the control based on feature properties passed
 info.update = function (props) {
-  this._div.innerHTML = '<h4>US Human traffick around the world</h4>' +  (props ?
+  this._div.innerHTML = '<h4>Human traffick around the world</h4>' +  (props ?
       '<b>' + props.ADMIN + '</b><br />' + props.cases + ' victims between 2002-2019'
       : 'Hover over a country');
 };
@@ -128,3 +129,15 @@ legend.onAdd = function (map) {
 };
 
 legend.addTo(map);
+
+
+
+function countries(data){
+  for (var i=0; i<=data.features.length; i++){
+      var feature = data.features[i].properties.ADMIN
+      console.log(feature)
+
+  }
+};
+
+countries(cleanedData);
