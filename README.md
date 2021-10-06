@@ -1,22 +1,31 @@
-# Analytics Final Project
-
 ## Human Trafficking
 
+# Overview
+Human trafficking is a worldwide problem that affects millions of people. Traffickers use other humans to generate a profit for themselves at the victim’s expense. The most vulnerable to becoming victims of human trafficking are those who’s basic needs are unmet. The lack of necessities is one of the ways traffickers will prey on victims. Most trafficked victims believe they are indebted to their traffickers in some way or are controlled by the trauma bond they develop with their trafficker. Identifying the signs of human trafficking will help to prevent people from becoming prey to traffickers’ tactics and ensure that current victims can get the help they need to leave.
+
 ## Purpose
-Search for trends in human trafficking, through data, in order to predict possible outcomes, based on gender, age, immigration status, among others, and how these relate to the activity the victims are forced into.
+The purpose of our final project was to search for trends in human trafficking in order to predict possible outcomes based on the victim’s gender, age, relationships, and citizenship (to name a few features) and how these relate to the activity the victims are forced into.
+
+Our team also took a look at the status of the victim’s country of origin and how that might affect the number of victims.
 
 ## Choosing
-Our initial thoughts on the matter where how awful this situations is, across the country as well as around the world. So, as a way to evoke consciousness maybe, or as a personal exercise of empathy, we decided to work with this dataset, trying to discover what story could it be telling us. 
+Our initial thoughts on the matter were how awful this situations is across the country as well as around the world. As a way to evoke consciousness maybe, or as a personal exercise of empathy, we decided to work with this dataset, trying to discover what story could it be telling us. 
 
-## Source of data
-Our analysis is based on a csv file, consisting of 63 columns and nearly 50,000 rows of data.
-In columns we have year, gender, age, majority status(when trafficked started for them),  tactics to scare, threat or maintain the power relationship between the victims and their "recruiter".
-Type of labor is another interesting column, wich will take our attention later in the machine learning model.
-Finally the recruiter relation to the victims is shown. 
+## Sources of Data
+- Polaris: The Counter-Trafficking Data Collaborative (CTDC) is a joint project of Polaris and the first global data hub on human trafficking
+
+- The World Bank: Global Poverty Working Group Data is compiled from official government sources or are computed by World Bank staffing using national poverty lines
+
+- World Economic Outlook: WEO database contains selected macroeconomic data series and is used to find data on national accounts reported by International Monetary Fund
+
+- DataHub: Geodata package providing geojson polygons for all the world’s countries
+
+- Nations Online Project: List of ISO Alpha-2, Alpha-3, and Numeric Country Codes to join data sets together
 
 ## Questions?
 ### Does the victim's age, gender, relationship to their recruiter and citizenship predict the type of exploitation?
 Polaris-reported human trafficking appears to fall in to one of five major types of exploitation: sexual, forced labor, forced marriage, slavery and other/multiple exploits.
+<<<<<<< HEAD
 *Placeholder text pending further research and consolidation of group efforts to this point.*
 
 ### Is it possible to predict the type of labor a trafficking victim may be forced in to given age, gender, recruiter relationship, citizenship and type of control?
@@ -60,11 +69,33 @@ As we upload our cleaned data to the database and then draw that data down from 
 ## Dashboard
 ### Storyboard
 Please see [our initial presentation](https://github.com/gh-mrmoore/AnalyticsFinalProject/blob/main/Segment-2/Group5_FinalProject.pptx) for a draft of our storyboard and topics we'll be covering.
+=======
 
-## Communication Protocols
-### Needs
-As each team member will contribute to different parts of the project over time, communication throughout each segmenet of the project is essential. Communication will be maintained regularly meetings will be planned according to team members' schedules.
+### Is it possible to predict the type of labor a trafficking victim may be forced into given age, gender, recruiter relationship, citizenship and type of control?
+There are several categories of forced labor reported, although data is not as complete as for other features.
 
+### Is it possible to predict the number of trafficking victims based on certain economic factors (such as GDP, Population, Poverty Rate, and Unemployment Rate)?
+Does high unemployment and/or low economic productivity increase the likelihood that trafficking may be more prevalent in a given country?
+
+## Machine Learning Model
+### Data Pre-Processing
+Many features/columns had to be consolidated and combined to prevent data loss. Each Jupyter Notebook has additional details.
+
+### Feature Engineering
+As we had a known outcome (our Polaris dataset related to known victims of human trafficking), a supervised learning model with multi-class logistic regression was chosen. This required that categorical data be converted to numerical, and in certain instances, scaled due to the disparities between certain features. Features were chosen based on research on human trafficking and based on the data publicly available.
+
+### Training/Testing Splits
+Data was split in to training and testing sets using the `train_test_split` module available in Sci-Kit Learn. Modifications to the sets are pending further EDA and review.
+
+### Model Choice
+After initial trials with unsupervised and neural-network learning models, consultations led us to a supervised learning model. Using both multi-class logistic regression and linear regression, we hope to be able to predict outcomes to our questions as listed above. As yet, multiple regression (using various factors to try and forecast the number of cases in a given country for a given year) has proven less than reliable.
+>>>>>>> 0323aaaa6069354056896a26e3456d79862201eb
+
+## Database Integration
+### Data Storage
+Our project is using PostgreSQL hosted via Heroku (heroku.com).
+
+<<<<<<< HEAD
 ### Tools
 We plan to use a combination of Jupyter Notebooks, Python, plotly, MapBox, d3 and likely other libraries to, hopefully, host our project on Heroku.
 
@@ -75,28 +106,35 @@ Best case scenario will be an interactive use of our models. We also plan to hav
 
 ### Purpose
 Efficient collaboration between teammates can either make or break a project. Communication, as part of collaboration is essential for success. Regular updates to stakeholders can help to remove blockages from a given workflow and can allow parallel development of different aspects of a given project without one necessarily waiting on another.
+=======
+### Project interface
+Our database hosts migrated historical data from a variety of sources that is linked to our models using SQLAlchemy.
+>>>>>>> 0323aaaa6069354056896a26e3456d79862201eb
 
-### Methods
-#### GitHub Projects
-A basic Kanban project has been created in the Project GitHub repository. This will enable team members to track progress as items are completed.
+### Schema
+Our database includes at least 4 primary data tables.
+<img src="https://github.com/gh-mrmoore/AnalyticsFinalProject/blob/main/Segment-2/Database/ERD.png" alt="Basic ERD for PostgreSQL database." />
 
-#### Slack
-Using Slack to message other team members and share resources will be essential. Sharing links and possibly files via Slack should improve the quality of work.
+### Joins
+SQL was used to create a view within the database that provides a reference between 2-character and 3-character country ISO codes.
 
-#### Zoom
-Regular Zoom meetings (both during and outside of regular class time) will be held to accomplish the following:
-- Brainstorm
-- Troubleshoot
-- Plan for next steps
-- Debate and determine best models and/or datasets and/or technologies
+### SQLAlchemy Connection String
+As we upload our cleaned data to the database and then draw that data down from the database for analysis in our models, multiple connections were made using SQLAlchemy. The connection strings have not been pushed to GitHub as they are related to a live database.
 
-#### Canvas
-As provided by the class instructor and teaching assistants, a calendar and other resources are available in Canvas. Meetings will be posted on the calendar and other resources (Collaborations, Files, Discussions, etc) shall be utilized when or if appropriate.
+## Dashboard
+### Storyboard
+Please see [our final presentation](https://github.com/gh-mrmoore/AnalyticsFinalProject/blob/main/Segment-4/Group5_FinalProject.pptx) for our storyboard and topics we'll be covering.
 
-### Cadence
-The group shall meet at least twice weekly (Monday and Wednesday during regularly scheduled class time) and as often as possible or necessary outside of the regular, twice-weekly, meetings.
+### Heroku Dashboard
+Development is continuing at [our Heroku site](https://ku-group5.herokuapp.com/). Please allow a moment for the site to load.
 
 ## Team
 * Santiago Quintero
+<<<<<<< HEAD
 * Michelle Villafria
 * Matthew Moore
+=======
+* Michelle Escobar
+* Michelle Villafria
+* Matthew Moore
+>>>>>>> 0323aaaa6069354056896a26e3456d79862201eb
