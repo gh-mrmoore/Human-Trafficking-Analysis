@@ -54,7 +54,7 @@ Our database hosts migrated historical data from a variety of sources that is li
 
 ### Schema
 Our database includes at least 4 primary data tables.
-<img src="https://github.com/gh-mrmoore/AnalyticsFinalProject/blob/main/Segment-2/Database/ERD.png" alt="Basic ERD for PostgreSQL database." />
+<img src="https://github.com/gh-mrmoore/AnalyticsFinalProject/blob/main/Database/group5_final_erd.png" alt="Basic ERD for PostgreSQL database." />
 
 ### Joins
 SQL was used to create a view within the database that provides a reference between 2-character and 3-character country ISO codes.
@@ -67,10 +67,7 @@ As we upload our cleaned data to the database and then draw that data down from 
 Please see [our final presentation](https://github.com/gh-mrmoore/AnalyticsFinalProject/blob/main/Segment-4/Group5_FinalProject.pptx) for our storyboard and topics we'll be covering.
 
 ### Heroku Dashboard
-Development is continuing at [our Heroku site](https://ku-group5.herokuapp.com/). Please allow a moment for the site to load.
-
-### Heroku Dashboard
-Development is continuing at [our Heroku site](https://ku-group5.herokuapp.com/). Please allow a moment for the site to load.
+Please see [our Heroku site](https://ku-group5.herokuapp.com/). Please allow a moment for the site to load.
 
 ## Team
 * Santiago Quintero
