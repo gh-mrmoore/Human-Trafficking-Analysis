@@ -185,7 +185,14 @@ As we upload our cleaned data to the database and then draw that data down from 
 ## Dashboard
 ### Storyboard
 Please see [our initial presentation](https://github.com/gh-mrmoore/AnalyticsFinalProject/blob/main/Segment-2/Group5_FinalProject.pptx) for a draft of our storyboard and topics we'll be covering.
+Storyboard
+Please see our final presentation for our storyboard and topics we'll be covering.
 
+Heroku Dashboard
+Development is continuing at our Heroku site. Please allow a moment for the site to load.
+
+Heroku Dashboard
+Development is continuing at our Heroku site. Please allow a moment for the site to load.
 ## Communication Protocols
 ### Needs
 As each team member will contribute to different parts of the project over time, communication throughout each segmenet of the project is essential. Communication will be maintained regularly meetings will be planned according to team members' schedules.
