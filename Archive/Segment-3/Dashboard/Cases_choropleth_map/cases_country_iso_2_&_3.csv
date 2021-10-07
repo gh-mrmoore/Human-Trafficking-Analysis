@@ -1,0 +1,56 @@
+country_iso2,cases,country_name,country_iso3
+US,12512,United States of America,USA
+UA,5399,Ukraine,UKR
+MD,4504,Moldova,MDA
+RU,2738,Russian Federation,RUS
+PH,1988,Philippines,PHL
+ID,1777,Indonesia,IDN
+KH,1000,Cambodia,KHM
+MY,930,Malaysia,MYS
+GH,544,Ghana,GHA
+AE,504,United Arab Emirates,ARE
+BY,400,Belarus,BLR
+TH,391,Thailand,THA
+SN,370,Senegal,SEN
+BG,356,Bulgaria,BGR
+HT,339,Haiti,HTI
+PL,326,Poland,POL
+SA,278,Saudi Arabia,SAU
+RO,259,Romania,ROU
+RS,248,Serbia,SRB
+QA,239,Qatar,QAT
+KZ,222,Kazakhstan,KAZ
+KW,209,Kuwait,KWT
+TR,197,Turkey,TUR
+UZ,193,Uzbekistan,UZB
+UG,151,Uganda,UGA
+BA,127,Bosnia and Herzegovina,BIH
+JP,111,Japan,JPN
+JO,108,Jordan,JOR
+OM,94,Oman,OMN
+MG,94,Madagascar,MDG
+TT,85,Trinidad and Tobago,TTO
+AF,83,Afghanistan,AFG
+SL,81,Sierra Leone,SLE
+CN,79,China,CHN
+LB,73,Lebanon,LBN
+TJ,54,Tajikistan,TJK
+IN,46,India,IND
+SY,41,Syrian Arab Republic (Syria),SYR
+CZ,38,Czech Republic,CZE
+SG,37,Singapore,SGP
+ZA,36,South Africa,ZAF
+TM,26,Turkmenistan,TKM
+BD,26,Bangladesh,BGD
+AT,24,Austria,AUT
+IT,24,Italy,ITA
+AL,22,Albania,ALB
+BH,22,Bahrain,BHR
+MU,20,Mauritius,MUS
+AR,18,Argentina,ARG
+DK,17,Denmark,DNK
+VN,16,Viet Nam,VNM
+EG,13,Egypt,EGY
+EC,13,Ecuador,ECU
+LY,11,Libya,LBY
+CY,11,Cyprus,CYP
