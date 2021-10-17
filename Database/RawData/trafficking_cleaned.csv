@@ -1,4 +1,4 @@
-yearOfRegistration,Datasource,gender,citizenship,ControCategory,RecruiterCategory,ExploitType,Labor_Type,ageCategories
+yearOfRegistration,Datasource,gender,citizenship,isForcedLabour,ControlCategory,RecruiterCategory,ExploitType,Labor_Type,ageCategories
 2012,Case Management,Female,LK,1,Threats,Other,Forced Labor,Domestic Work,Age 30-38
 2012,Case Management,Female,LK,1,Financial,Other,Forced Labor,Domestic Work,Age 30-38
 2012,Case Management,Female,LK,1,Threats,Other,Forced Labor,Domestic Work,Age 30-38
